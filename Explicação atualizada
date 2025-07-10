@@ -1,0 +1,104 @@
+Aqui eu coloquei uma biblioteca do C de entrada e saida, que é necessária para as funções printf e scanf
+
+Escrevi uma definição para um novo tipo de dado(Cidade) usando o Typedef struct
+Um array de de 5 caracteres que vai servir para armazenar o código de identificação da cidade
+Alteração do float para o usigned long int para trabalhar com mais dados e armazenar a população
+um array de ponto flutuante para representar a área da cidade em km²
+Array também de ponto flutuante para armazenar o PIB da cidade
+Array de número inteiro que irá armazenar a quantidade de pontos turísticos 
+Mais um array de ponto flutuante para armazenar a densidade populacional, calcuando a populaçao divivindo pela área
+Novo Array de ponto flutuante para armazenar o PIB per capita da cidade em reais
+Novo Array também de ponto flutuante para armazenar um valor calculado somando os atributos da cidade(no caso a pontuação para a cidade)
+Aqui tem o fechamento das definições da estrutura(cidade)
+
+
+Crie uma função para cadastrar os dados de uma cidade(cadastrarCidade) serve para receber um ponteiro para uma variável do tipo "Cidade" e preenche suas informações
+
+Printf para pedir ao usuário para inserir o código da cidade, e em seguida o scanf para ler a entrada, o "código" é armanezado dentro da estrutuca "cidade"
+
+
+
+Printf para pedir ao usuário para informar a população da cidade, sendo lida como usigned long int
+
+
+
+Printf para pedir a área da cidade, irá armazenar em um número de ponto flutuante 
+
+
+
+Printf pede o PIB da cidade(isso em bilhoes) e armazena em um número de ponto flutuante
+
+
+
+Printf solicita o número de pontos turísticos da cidade e armazena com um número inteiro
+
+
+
+Aqui como pedido, foi calculada a densidade populacional dividindo pela área, onde ele é armazenado na "densidade_populacional"
+Ja nessa, calcula o PIB per capita da cidade, multiplicando o PIB por 1 bilhão para obter a conversão, e assim dividindo pela população
+
+
+Calcula a parte do "super poder" pedido no projeto, que é a soma dos atributos gerais, seguindo a lógica de quanto menor a densidade maior o poder
+
+
+
+
+defini uma função para mostrar as informações de uma cidade
+Exibe o código da cidade
+Exibe a população da cidade
+Exibe a área da cidade com duas casas decimais
+Exibe o PIB da cidade, também com duas casas decimais
+Exibe o número de pontos turísticos da cidade
+Exibe a densidade populacional da cidade
+Exibe o PIB per capita
+
+
+
+
+Escrevi uma função para comparar as características de duas cidades
+Exibe um comunicado que começará a comparação entre duas cidades
+
+
+Compara as populações das duas cidades e imprime o resultado. A cidade com maior população "vence"
+
+
+Compara as áreas das duas cidades e mostra o resultado
+
+
+Compara os PIBs das duas cidades e mostra o resultado
+
+
+Compara o número de pontos turísticos das duas cidades e mostra o resultado
+
+
+Compara a densidade populacional
+
+
+Compara o PIB per capita das duas cidades e mostra o resultado
+
+
+Compara o super poder
+
+
+Defini uma função main
+Aqui declarei duas variaveis para armazenar a informações de dias cidades diferentes
+
+
+Exibe uma mensagem para indicar o início do cadastro
+Aqui, chama a função "cadastrarCidade" passando o endereço da memória da carta 1 para que as características da cidade sejam cadastradas
+
+
+Exibe a mensagem para a segunda carta ser cadastrada
+Chama a função para pegar as características da carta
+
+
+Mostra uma mensagem separadno os dados da primeira cidade
+Mostra a mensagem seprando os dados da primeira cidade
+
+Mostra uma mensagem seprando os dados da segunda cidade
+Mostra uma mensagem separando os dados da segunda cidade
+
+
+Aqui fazemos a comparaçãp das características das duas cidades e imprime os resultados dessas comparações
+
+Finalizo a exucução do código
